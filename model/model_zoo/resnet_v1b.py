@@ -252,7 +252,7 @@ def resnet18_v1b(pretrained=None, **kwargs):
     """
     model = ResNetV1b(BasicBlockV1b, [2, 2, 2, 2], **kwargs)
     if pretrained:
-        model.load_state_dict(torch.load(torch.load(pretrained)))
+        model.load_state_dict(torch.load(pretrained))
         from data.imagenet import ImageNetAttr
         attrib = ImageNetAttr()
         model.synset = attrib.synset
