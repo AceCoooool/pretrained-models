@@ -20,7 +20,7 @@ from utils.metric_cls import Accuracy, TopKAccuracy
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Eval ImageNet networks.')
-    parser.add_argument('--model', type=str, default='resnet50_v1b_gn',
+    parser.add_argument('--model', type=str, default='MobileNet1.0',
                         help="Base network name")
     parser.add_argument('--input-size', type=int, default=224,
                         help='size of the input image size. default is 224')
@@ -82,7 +82,7 @@ def validate(net, val_data, device, acc_top1, acc_top5):
 if __name__ == '__main__':
     args = parse_args()
     if args.pretrained is None:
-        args.pretrained = os.path.join(os.path.expanduser('~/.torch/models'), args.model + '.pth')
+        args.pretrained = os.path.join(os.path.expanduser('~/.torch/models'), args.model.lower() + '.pth')
 
     # device
     device = torch.device('cpu')

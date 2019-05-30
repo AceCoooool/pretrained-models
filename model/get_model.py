@@ -1,5 +1,6 @@
 from .model_zoo.resnet import *
 from .model_zoo.resnet_v1b import *
+from .model_zoo.mobilenet import *
 
 _models = {
     # -----------------------------------------------------------------------------
@@ -25,6 +26,23 @@ _models = {
     'resnet101_v1b': resnet101_v1b,
     'resnet101_v1b_gn': resnet101_v1b_gn,
     'resnet152_v1b': resnet152_v1b,
+    'resnet50_v1c': resnet50_v1c,
+    'resnet101_v1c': resnet101_v1c,
+    'resnet152_v1c': resnet152_v1c,
+    'resnet50_v1d': resnet50_v1d,
+    'resnet101_v1d': resnet101_v1d,
+    'resnet152_v1d': resnet152_v1d,
+    # -----------------------------------------------------------------------------
+    # mobilenet
+    # -----------------------------------------------------------------------------
+    'mobilenet1.0': mobilenet1_0,
+    'mobilenet0.75': mobilenet0_75,
+    'mobilenet0.5': mobilenet0_5,
+    'mobilenet0.25': mobilenet0_25,
+    'mobilenetv2_1.0': mobilenet_v2_1_0,
+    'mobilenetv2_0.75': mobilenet_v2_0_75,
+    'mobilenetv2_0.5': mobilenet_v2_0_5,
+    'mobilenetv2_0.25': mobilenet_v2_0_25,
 }
 
 

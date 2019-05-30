@@ -31,12 +31,25 @@ This repository contains pretrained models. (converted from gluon-cv)
 |  ResNet18_v1b   |      70.94      |      89.83      | [70.08](https://drive.google.com/open?id=1N8tvBVlMqqfVqQpkNZ31vj4360WKguQj) | 89.44 |
 |  ResNet34_v1b   |      74.65      |      92.08      | [74.11](https://drive.google.com/open?id=146cW8hxb6fj161yNeomvjIe5KJl39eAB) | 92.16 |
 |  ResNet50_v1b   |      77.67      |      93.82      | [77.57](https://drive.google.com/open?id=1TXEaNlHxgK0BpFFoxeQ9H0cqIYt0yzxL) | 93.58 |
-| ResNet50_v1b_gn |      77.36      |      93.59      |                            77.22                             | 93.54 |
-|  ResNet101_v1b  |      79.20      |      94.61      |                            79.12                             | 94.47 |
+| ResNet50_v1b_gn |      77.36      |      93.59      | [77.22](https://drive.google.com/open?id=1kESi0cdOBR0JmPOhXgaCCnBx99cgKckS) | 93.54 |
+|  ResNet101_v1b  |      79.20      |      94.61      | [79.12](https://drive.google.com/open?id=17PVhxH2Frd2yYmg7IAodOt8GPfQzrddJ) | 94.47 |
 |  ResNet152_v1b  |      79.69      |      94.74      |                                                              |       |
-|  ResNet50_v1c   |      78.03      |      94.09      |                            77.89                             | 94.02 |
+|  ResNet50_v1c   |      78.03      |      94.09      | [77.89](https://drive.google.com/open?id=1dBnRwuAdkQdKEuF5Vf6ufOY7esrYLF9B) | 94.02 |
 |  ResNet101_v1c  |      79.60      |      94.75      |                            79.48                             | 94.72 |
 |  ResNet152_v1c  |      80.01      |      94.96      |                                                              |       |
 |  ResNet50_v1d   |      79.15      |      94.58      |                                                              |       |
 |  ResNet101_v1d  |      80.51      |      95.12      |                                                              |       |
 |  ResNet152_v1d  |      80.61      |      95.34      |                                                              |       |
+
+### mobilenet
+
+|      Model       | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
+| :--------------: | :-------------: | :-------------: | :---: | :---: |
+|   MobileNet1.0   |      73.28      |      91.30      |       |       |
+|  MobileNet0.75   |      70.25      |      89.49      |       |       |
+|   MobileNet0.5   |      65.20      |      86.34      |       |       |
+|  MobileNet0.25   |      52.91      |      76.94      |       |       |
+| MobileNetV2_1.0  |      71.92      |      90.56      |       |       |
+| MobileNetV2_0.75 |      69.61      |      88.95      |       |       |
+| MobileNetV2_0.5  |      64.49      |      85.47      |       |       |
+| MobileNetV2_0.25 |      50.74      |      74.56      |       |       |
