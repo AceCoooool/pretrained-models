@@ -1,7 +1,10 @@
 from .model_zoo.resnet import *
+from .model_zoo.resnet_v1b import *
 
 _models = {
-    # -------------resnet--------------
+    # -----------------------------------------------------------------------------
+    # resnet
+    # -----------------------------------------------------------------------------
     'resnet18_v1': resnet18_v1,
     'resnet34_v1': resnet34_v1,
     'resnet50_v1': resnet50_v1,
@@ -12,6 +15,16 @@ _models = {
     'resnet50_v2': resnet50_v2,
     'resnet101_v2': resnet101_v2,
     'resnet152_v2': resnet152_v2,
+    # -----------------------------------------------------------------------------
+    # resnet_v1b
+    # -----------------------------------------------------------------------------
+    'resnet18_v1b': resnet18_v1b,
+    'resnet34_v1b': resnet34_v1b,
+    'resnet50_v1b': resnet50_v1b,
+    'resnet50_v1b_gn': resnet50_v1b_gn,
+    'resnet101_v1b': resnet101_v1b,
+    'resnet101_v1b_gn': resnet101_v1b_gn,
+    'resnet152_v1b': resnet152_v1b,
 }
 
 

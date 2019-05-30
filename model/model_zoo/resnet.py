@@ -407,7 +407,7 @@ def get_resnet(version, num_layers, pretrained=None, **kwargs):
     if pretrained:
         import torch
         net.load_state_dict(torch.load(pretrained))
-        from data.imagenet_cv import ImageNetAttr
+        from data.imagenet import ImageNetAttr
         attrib = ImageNetAttr()
         net.synset = attrib.synset
         net.classes = attrib.classes

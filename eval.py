@@ -13,14 +13,14 @@ sys.path.insert(0, os.path.join(cur_path, '../..'))
 from model.get_model import get_model
 from data import transforms_cv
 from data.helper import make_data_sampler
-from data.imagenet_cv import ImageNet
+from data.imagenet import ImageNet
 from utils.helper import synchronize, accumulate_metric, is_main_process
 from utils.metric_cls import Accuracy, TopKAccuracy
 
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Eval ImageNet networks.')
-    parser.add_argument('--model', type=str, default='resnet152_v1',
+    parser.add_argument('--model', type=str, default='resnet101_v2',
                         help="Base network name")
     parser.add_argument('--input-size', type=int, default=224,
                         help='size of the input image size. default is 224')
