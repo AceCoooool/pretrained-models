@@ -41,15 +41,19 @@ This repository contains pretrained models. (converted from gluon-cv)
 |  ResNet101_v1d  |      80.51      |      95.12      |                                                              |       |
 |  ResNet152_v1d  |      80.61      |      95.34      |                                                              |       |
 
+> - `ResNet_v1b` modifies `ResNet_v1` by setting stride at the `3x3` layer for a bottleneck block.
+> - `ResNet_v1c` modifies `ResNet_v1b` by replacing the `7x7` conv layer with three `3x3` conv layers.
+> - `ResNet_v1d` modifies `ResNet_v1c` by adding an avgpool layer `2x2` with stride `2` downsample feature map on the residual path to preserve more information.
+
 ### mobilenet
 
-|      Model       | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
-| :--------------: | :-------------: | :-------------: | :---: | :---: |
-|   MobileNet1.0   |      73.28      |      91.30      |       |       |
-|  MobileNet0.75   |      70.25      |      89.49      |       |       |
-|   MobileNet0.5   |      65.20      |      86.34      |       |       |
-|  MobileNet0.25   |      52.91      |      76.94      |       |       |
-| MobileNetV2_1.0  |      71.92      |      90.56      |       |       |
-| MobileNetV2_0.75 |      69.61      |      88.95      |       |       |
-| MobileNetV2_0.5  |      64.49      |      85.47      |       |       |
-| MobileNetV2_0.25 |      50.74      |      74.56      |       |       |
+|      Model       | Acc@1(gluon-cv) | Acc@5(gluon-cv) |                            Acc@1                             | Acc@5 |
+| :--------------: | :-------------: | :-------------: | :----------------------------------------------------------: | :---: |
+|   MobileNet1.0   |      73.28      |      91.30      | [72.85](https://drive.google.com/open?id=1J_mwqonUTvWo0JFM7j2k1SRjPVBCeWT7) | 91.12 |
+|  MobileNet0.75   |      70.25      |      89.49      | [69.85](https://drive.google.com/open?id=1T5qQoNJBa9vXnc1e9jo2_Hk4F9kL7qAC) | 89.46 |
+|   MobileNet0.5   |      65.20      |      86.34      |                            64.19                             | 85.71 |
+|  MobileNet0.25   |      52.91      |      76.94      |                                                              |       |
+| MobileNetV2_1.0  |      71.92      |      90.56      |                                                              |       |
+| MobileNetV2_0.75 |      69.61      |      88.95      |                                                              |       |
+| MobileNetV2_0.5  |      64.49      |      85.47      |                                                              |       |
+| MobileNetV2_0.25 |      50.74      |      74.56      |                                                              |       |
