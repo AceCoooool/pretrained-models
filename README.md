@@ -37,8 +37,8 @@ This repository contains pretrained models. (converted from gluon-cv)
 |  ResNet50_v1c   |      78.03      |      94.09      | [77.89](https://drive.google.com/open?id=1dBnRwuAdkQdKEuF5Vf6ufOY7esrYLF9B) | 94.02 |
 |  ResNet101_v1c  |      79.60      |      94.75      |                            79.48                             | 94.72 |
 |  ResNet152_v1c  |      80.01      |      94.96      |                                                              |       |
-|  ResNet50_v1d   |      79.15      |      94.58      |                                                              |       |
-|  ResNet101_v1d  |      80.51      |      95.12      |                                                              |       |
+|  ResNet50_v1d   |      79.15      |      94.58      |                            79.04                             | 94.61 |
+|  ResNet101_v1d  |      80.51      |      95.12      |                            80.52                             | 95.23 |
 |  ResNet152_v1d  |      80.61      |      95.34      |                                                              |       |
 
 > - `ResNet_v1b` modifies `ResNet_v1` by setting stride at the `3x3` layer for a bottleneck block.
@@ -51,9 +51,35 @@ This repository contains pretrained models. (converted from gluon-cv)
 | :--------------: | :-------------: | :-------------: | :----------------------------------------------------------: | :---: |
 |   MobileNet1.0   |      73.28      |      91.30      | [72.85](https://drive.google.com/open?id=1J_mwqonUTvWo0JFM7j2k1SRjPVBCeWT7) | 91.12 |
 |  MobileNet0.75   |      70.25      |      89.49      | [69.85](https://drive.google.com/open?id=1T5qQoNJBa9vXnc1e9jo2_Hk4F9kL7qAC) | 89.46 |
-|   MobileNet0.5   |      65.20      |      86.34      |                            64.19                             | 85.71 |
-|  MobileNet0.25   |      52.91      |      76.94      |                                                              |       |
-| MobileNetV2_1.0  |      71.92      |      90.56      |                                                              |       |
-| MobileNetV2_0.75 |      69.61      |      88.95      |                                                              |       |
-| MobileNetV2_0.5  |      64.49      |      85.47      |                                                              |       |
-| MobileNetV2_0.25 |      50.74      |      74.56      |                                                              |       |
+|   MobileNet0.5   |      65.20      |      86.34      | [64.19](https://drive.google.com/open?id=1cUBh3kfq0hAi6FuATYE5axP_oK9oC8VQ) | 85.71 |
+|  MobileNet0.25   |      52.91      |      76.94      | [51.09](https://drive.google.com/open?id=1rGcC_6ehRuBkeMwODIhCnRmI1WlbuffU) | 75.36 |
+| MobileNetV2_1.0  |      71.92      |      90.56      | [71.78](https://drive.google.com/open?id=184i133xDNAKQ03hSwUwAFeZIavrft0kF) | 90.36 |
+| MobileNetV2_0.75 |      69.61      |      88.95      | [69.29](https://drive.google.com/open?id=1Yj6cIOUExRiKGeA4-Ky6linzI06R11GA) | 88.81 |
+| MobileNetV2_0.5  |      64.49      |      85.47      | [64.15](https://drive.google.com/open?id=1Io_tsEmwz7yF41UPpgVRcYLJMyV4Vyhw) | 85.40 |
+| MobileNetV2_0.25 |      50.74      |      74.56      | [50.14](https://drive.google.com/open?id=1-q81iQvR6UROcDFipOZqATEXSv64qOYN) | 74.13 |
+
+### vgg
+
+|  Model   | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
+| :------: | :-------------: | :-------------: | :---: | :---: |
+|  VGG11   |      66.62      |      87.34      | 67.26 | 87.73 |
+|  VGG13   |      67.74      |      88.11      | 68.15 | 88.47 |
+|  VGG16   |      73.23      |      91.31      | 70.09 | 89.70 |
+|  VGG19   |      74.11      |      91.35      | 70.86 | 90.17 |
+| VGG11_bn |      68.59      |      88.72      | 68.94 | 88.88 |
+| VGG13_bn |      68.84      |      88.82      |       |       |
+| VGG16_bn |      73.10      |      91.76      |       |       |
+| VGG19_bn |      74.33      |      91.85      |       |       |
+
+> Note: the vgg model here is converted from torchvision
+
+### resnext
+
+|        Model        | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
+| :-----------------: | :-------------: | :-------------: | :---: | :---: |
+|   ResNext50_32x4d   |      79.32      |      94.53      | 79.41 | 94.54 |
+|  ResNext101_32x4d   |      80.37      |      95.06      | 80.52 | 95.20 |
+|  ResNext101_64x4d   |      80.69      |      95.17      |       |       |
+| SE_ResNext50_32x4d  |      79.95      |      94.93      |       |       |
+| SE_ResNext101_32x4d |      80.91      |      95.39      |       |       |
+| SE_ResNext101_64x4d |      81.01      |      95.32      |       |       |

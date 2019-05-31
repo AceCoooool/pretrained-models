@@ -1,6 +1,8 @@
 from .model_zoo.resnet import *
 from .model_zoo.resnet_v1b import *
 from .model_zoo.mobilenet import *
+from .model_zoo.resnext import *
+from .model_zoo.vgg import *
 
 _models = {
     # -----------------------------------------------------------------------------
@@ -33,6 +35,15 @@ _models = {
     'resnet101_v1d': resnet101_v1d,
     'resnet152_v1d': resnet152_v1d,
     # -----------------------------------------------------------------------------
+    # resnext
+    # -----------------------------------------------------------------------------
+    'resnext50_32x4d': resnext50_32x4d,
+    'resnext101_32x4d': resnext101_32x4d,
+    'resnext101_64x4d': resnext101_64x4d,
+    'se_resnext50_32x4d': se_resnext50_32x4d,
+    'se_resnext101_32x4d': se_resnext101_32x4d,
+    'se_resnext101_64x4d': se_resnext101_64x4d,
+    # -----------------------------------------------------------------------------
     # mobilenet
     # -----------------------------------------------------------------------------
     'mobilenet1.0': mobilenet1_0,
@@ -43,6 +54,17 @@ _models = {
     'mobilenetv2_0.75': mobilenet_v2_0_75,
     'mobilenetv2_0.5': mobilenet_v2_0_5,
     'mobilenetv2_0.25': mobilenet_v2_0_25,
+    # -----------------------------------------------------------------------------
+    # vgg
+    # -----------------------------------------------------------------------------
+    'vgg11': vgg11,
+    'vgg13': vgg13,
+    'vgg16': vgg16,
+    'vgg19': vgg19,
+    'vgg11_bn': vgg11_bn,
+    'vgg13_bn': vgg13_bn,
+    'vgg16_bn': vgg16_bn,
+    'vgg19_bn': vgg19_bn,
 }
 
 
