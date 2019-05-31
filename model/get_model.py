@@ -4,6 +4,8 @@ from .model_zoo.mobilenet import *
 from .model_zoo.resnext import *
 from .model_zoo.vgg import *
 from .model_zoo.resnetv1b_pruned import *
+from .model_zoo.squeezenet import *
+from .model_zoo.densenet import *
 
 _models = {
     # -----------------------------------------------------------------------------
@@ -76,6 +78,18 @@ _models = {
     'resnet50_v1d_0.11': resnet50_v1d_11,
     'resnet101_v1d_0.76': resnet101_v1d_76,
     'resnet101_v1d_0.73': resnet101_v1d_73,
+    # -----------------------------------------------------------------------------
+    # squeezenet
+    # -----------------------------------------------------------------------------
+    'squeezenet1.0': squeezenet1_0,
+    'squeezenet1.1': squeezenet1_1,
+    # -----------------------------------------------------------------------------
+    # densenet
+    # -----------------------------------------------------------------------------
+    'densenet121': densenet121,
+    'densenet161': densenet161,
+    'densenet169': densenet169,
+    'densenet201': densenet201,
 }
 
 

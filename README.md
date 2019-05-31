@@ -33,13 +33,13 @@ This repository contains pretrained models. (converted from gluon-cv)
 |  ResNet50_v1b   |      77.67      |      93.82      | [77.57](https://drive.google.com/open?id=1TXEaNlHxgK0BpFFoxeQ9H0cqIYt0yzxL) | 93.58 |
 | ResNet50_v1b_gn |      77.36      |      93.59      | [77.22](https://drive.google.com/open?id=1kESi0cdOBR0JmPOhXgaCCnBx99cgKckS) | 93.54 |
 |  ResNet101_v1b  |      79.20      |      94.61      | [79.12](https://drive.google.com/open?id=17PVhxH2Frd2yYmg7IAodOt8GPfQzrddJ) | 94.47 |
-|  ResNet152_v1b  |      79.69      |      94.74      |                                                              |       |
+|  ResNet152_v1b  |      79.69      |      94.74      |                            78.07                             | 93.97 |
 |  ResNet50_v1c   |      78.03      |      94.09      | [77.89](https://drive.google.com/open?id=1dBnRwuAdkQdKEuF5Vf6ufOY7esrYLF9B) | 94.02 |
 |  ResNet101_v1c  |      79.60      |      94.75      |                            79.48                             | 94.72 |
 |  ResNet152_v1c  |      80.01      |      94.96      |                            78.18                             | 93.99 |
-|  ResNet50_v1d   |      79.15      |      94.58      |                            79.04                             | 94.61 |
-|  ResNet101_v1d  |      80.51      |      95.12      |                            80.52                             | 95.23 |
-|  ResNet152_v1d  |      80.61      |      95.34      |                                                              |       |
+|  ResNet50_v1d   |      79.15      |      94.58      | [79.04](https://drive.google.com/open?id=1oMrJ3U45ERi1EOCHTc5cjOba9hj-v4Os) | 94.61 |
+|  ResNet101_v1d  |      80.51      |      95.12      | [80.52](https://drive.google.com/open?id=1pWuT_iipgk6I_dM1NWAuxh93VQzz9HaA) | 95.23 |
+|  ResNet152_v1d  |      80.61      |      95.34      |                            80.75                             | 95.34 |
 
 > - `ResNet_v1b` modifies `ResNet_v1` by setting stride at the `3x3` layer for a bottleneck block.
 > - `ResNet_v1c` modifies `ResNet_v1b` by replacing the `7x7` conv layer with three `3x3` conv layers.
@@ -92,6 +92,23 @@ This repository contains pretrained models. (converted from gluon-cv)
 | resnet50_v1d_0.86  |      78.02      |      93.82      | 77.61 | 93.90 |
 | resnet50_v1d_0.48  |      74.66      |      92.34      | 74.10 | 92.10 |
 | resnet50_v1d_0.37  |      70.71      |      89.74      | 69.47 | 89.12 |
-| resnet50_v1d_0.11  |      63.22      |      84.79      |       |       |
-| resnet101_v1d_0.76 |      79.46      |      94.69      |       |       |
-| resnet101_v1d_0.73 |      78.89      |      94.48      |       |       |
+| resnet50_v1d_0.11  |      63.22      |      84.79      | 61.12 | 83.31 |
+| resnet101_v1d_0.76 |      79.46      |      94.69      | 79.55 | 94.81 |
+| resnet101_v1d_0.73 |      78.89      |      94.48      | 78.68 | 94.41 |
+
+### squeezenet
+
+|     Model     | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
+| :-----------: | :-------------: | :-------------: | :---: | :---: |
+| SqueezeNet1.0 |      56.11      |      79.09      | 55.67 | 78.47 |
+| SqueezeNet1.1 |      54.96      |      78.17      | 55.27 | 78.55 |
+
+### densenet
+
+|    Model    | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
+| :---------: | :-------------: | :-------------: | :---: | :---: |
+| DenseNet121 |      74.97      |      92.25      | 74.65 | 92.15 |
+| DenseNet161 |      77.70      |      93.80      | 77.64 | 93.97 |
+| DenseNet169 |      76.17      |      93.17      | 76.26 | 93.18 |
+| DenseNet201 |      77.32      |      93.62      | 77.64 | 93.97 |
+
