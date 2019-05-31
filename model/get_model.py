@@ -6,6 +6,9 @@ from .model_zoo.vgg import *
 from .model_zoo.resnetv1b_pruned import *
 from .model_zoo.squeezenet import *
 from .model_zoo.densenet import *
+from .model_zoo.inception import *
+from .model_zoo.alexnet import *
+from .model_zoo.darknet import *
 
 _models = {
     # -----------------------------------------------------------------------------
@@ -90,6 +93,19 @@ _models = {
     'densenet161': densenet161,
     'densenet169': densenet169,
     'densenet201': densenet201,
+    # -----------------------------------------------------------------------------
+    # inception
+    # -----------------------------------------------------------------------------
+    'inceptionv3': inception_v3,
+    # -----------------------------------------------------------------------------
+    # alexnet
+    # -----------------------------------------------------------------------------
+    'alexnet': alexnet,
+    # -----------------------------------------------------------------------------
+    # darknet
+    # -----------------------------------------------------------------------------
+    'darknet53': darknet53,
+
 }
 
 

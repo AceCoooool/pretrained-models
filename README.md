@@ -60,16 +60,16 @@ This repository contains pretrained models. (converted from gluon-cv)
 
 ### vgg
 
-|  Model   | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
-| :------: | :-------------: | :-------------: | :---: | :---: |
-|  VGG11   |      66.62      |      87.34      | 67.26 | 87.73 |
-|  VGG13   |      67.74      |      88.11      | 68.15 | 88.47 |
-|  VGG16   |      73.23      |      91.31      | 70.09 | 89.70 |
-|  VGG19   |      74.11      |      91.35      | 70.86 | 90.17 |
-| VGG11_bn |      68.59      |      88.72      | 68.94 | 88.88 |
-| VGG13_bn |      68.84      |      88.82      | 69.51 | 89.46 |
-| VGG16_bn |      73.10      |      91.76      | 72.07 | 90.97 |
-| VGG19_bn |      74.33      |      91.85      | 72.85 | 91.26 |
+|  Model   | Acc@1(gluon-cv) | Acc@5(gluon-cv) |                            Acc@1                             | Acc@5 |
+| :------: | :-------------: | :-------------: | :----------------------------------------------------------: | :---: |
+|  VGG11   |      66.62      |      87.34      | [67.26](https://drive.google.com/open?id=12NuWE6hmnAu2FVZWTLhRKeqDSqUEsbun) | 87.73 |
+|  VGG13   |      67.74      |      88.11      | [68.15](https://drive.google.com/open?id=16xTQJB1RdCOTEdNA9rfrb-l-EaBp4F8n) | 88.47 |
+|  VGG16   |      73.23      |      91.31      | [70.09](https://drive.google.com/open?id=1Qojl0JgORqlrzJ-fH3BfYGw1fAaum-Va) | 89.70 |
+|  VGG19   |      74.11      |      91.35      | [70.86](https://drive.google.com/open?id=1yLN2RHTEgg0YoYink2GQwVqMgZYvH8KC) | 90.17 |
+| VGG11_bn |      68.59      |      88.72      | [68.94](https://drive.google.com/open?id=1Vwhp6e19wkoywpb3U0KJL2aHtBVIgGZb) | 88.88 |
+| VGG13_bn |      68.84      |      88.82      |                            69.51                             | 89.46 |
+| VGG16_bn |      73.10      |      91.76      | [72.07](https://drive.google.com/open?id=1-2qaUQXVChIyQ8GoLkPt_CeMMa7CvS4t) | 90.97 |
+| VGG19_bn |      74.33      |      91.85      | [72.85](https://drive.google.com/open?id=1zHpPha3jkmulUetEA8YbkxcoljVnaPwq) | 91.26 |
 
 > Note: the vgg model here is converted from torchvision
 
@@ -112,3 +112,22 @@ This repository contains pretrained models. (converted from gluon-cv)
 | DenseNet169 |      76.17      |      93.17      | 76.26 | 93.18 |
 | DenseNet201 |      77.32      |      93.62      | 77.64 | 93.97 |
 
+### inception
+
+|    Model    | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
+| :---------: | :-------------: | :-------------: | :---: | :---: |
+| InceptionV3 |      78.77      |      94.39      | 78.62 | 94.42 |
+
+> `InceptionV3` is evaluated with input size of 299x299.
+
+### alexnet
+
+|  Model  | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
+| :-----: | :-------------: | :-------------: | :---: | :---: |
+| AlexNet |      54.92      |      78.03      | 54.28 | 77.68 |
+
+### darknet
+
+|   Model   | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
+| :-------: | :-------------: | :-------------: | :---: | :---: |
+| darknet53 |      78.56      |      94.43      | 78.54 | 94.54 |
