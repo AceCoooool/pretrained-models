@@ -67,7 +67,7 @@ This repository contains pretrained models. (converted from gluon-cv)
 |  VGG16   |      73.23      |      91.31      | [70.09](https://drive.google.com/open?id=1Qojl0JgORqlrzJ-fH3BfYGw1fAaum-Va) | 89.70 |
 |  VGG19   |      74.11      |      91.35      | [70.86](https://drive.google.com/open?id=1yLN2RHTEgg0YoYink2GQwVqMgZYvH8KC) | 90.17 |
 | VGG11_bn |      68.59      |      88.72      | [68.94](https://drive.google.com/open?id=1Vwhp6e19wkoywpb3U0KJL2aHtBVIgGZb) | 88.88 |
-| VGG13_bn |      68.84      |      88.82      |                            69.51                             | 89.46 |
+| VGG13_bn |      68.84      |      88.82      | [69.51](https://drive.google.com/open?id=1WnFNR4diCCzG3zy2_GdKcPsl8w_cDxjF) | 89.46 |
 | VGG16_bn |      73.10      |      91.76      | [72.07](https://drive.google.com/open?id=1-2qaUQXVChIyQ8GoLkPt_CeMMa7CvS4t) | 90.97 |
 | VGG19_bn |      74.33      |      91.85      | [72.85](https://drive.google.com/open?id=1zHpPha3jkmulUetEA8YbkxcoljVnaPwq) | 91.26 |
 
@@ -75,48 +75,48 @@ This repository contains pretrained models. (converted from gluon-cv)
 
 ### resnext
 
-|        Model        | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
-| :-----------------: | :-------------: | :-------------: | :---: | :---: |
-|   ResNext50_32x4d   |      79.32      |      94.53      | 79.41 | 94.54 |
-|  ResNext101_32x4d   |      80.37      |      95.06      | 80.52 | 95.20 |
-|  ResNext101_64x4d   |      80.69      |      95.17      | 80.84 | 95.27 |
-| SE_ResNext50_32x4d  |      79.95      |      94.93      | 80.17 | 94.97 |
-| SE_ResNext101_32x4d |      80.91      |      95.39      | 81.27 | 95.42 |
-| SE_ResNext101_64x4d |      81.01      |      95.32      | 81.19 | 95.60 |
+|        Model        | Acc@1(gluon-cv) | Acc@5(gluon-cv) |                            Acc@1                             | Acc@5 |
+| :-----------------: | :-------------: | :-------------: | :----------------------------------------------------------: | :---: |
+|   ResNext50_32x4d   |      79.32      |      94.53      | [79.41](https://drive.google.com/open?id=1cjysurZtflI6emTfQUCT3x8JHISAGUlX) | 94.54 |
+|  ResNext101_32x4d   |      80.37      |      95.06      | [80.52](https://drive.google.com/open?id=1E6W0XGAzDPs9zzV-AtjdOw-FoHuDFO1E) | 95.20 |
+|  ResNext101_64x4d   |      80.69      |      95.17      | [80.84](https://drive.google.com/open?id=1ygaTFO75UYM8eaWJ-Y1MQ6OHfHoXgfwo) | 95.27 |
+| SE_ResNext50_32x4d  |      79.95      |      94.93      | [80.17](https://drive.google.com/open?id=1qFwRuFvcmRvmUqdjyBdUcNLVnxla3QDU) | 94.97 |
+| SE_ResNext101_32x4d |      80.91      |      95.39      | [81.27](https://drive.google.com/open?id=16TOK78CZrKFjCCiZXXSJ6zcrrMblnkg7) | 95.42 |
+| SE_ResNext101_64x4d |      81.01      |      95.32      |                            81.19                             | 95.60 |
 
 ### resnetv1b_pruned
 
-|       Model        | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
-| :----------------: | :-------------: | :-------------: | :---: | :---: |
-| resnet18_v1b_0.89  |      67.2       |      87.45      | 65.78 | 86.63 |
-| resnet50_v1d_0.86  |      78.02      |      93.82      | 77.61 | 93.90 |
-| resnet50_v1d_0.48  |      74.66      |      92.34      | 74.10 | 92.10 |
-| resnet50_v1d_0.37  |      70.71      |      89.74      | 69.47 | 89.12 |
-| resnet50_v1d_0.11  |      63.22      |      84.79      | 61.12 | 83.31 |
-| resnet101_v1d_0.76 |      79.46      |      94.69      | 79.55 | 94.81 |
-| resnet101_v1d_0.73 |      78.89      |      94.48      | 78.68 | 94.41 |
+|       Model        | Acc@1(gluon-cv) | Acc@5(gluon-cv) |                            Acc@1                             | Acc@5 |
+| :----------------: | :-------------: | :-------------: | :----------------------------------------------------------: | :---: |
+| resnet18_v1b_0.89  |      67.2       |      87.45      | [65.78](https://drive.google.com/open?id=1nK09yCWXg2Q-N6qot86Rrx21cUndwEZu) | 86.63 |
+| resnet50_v1d_0.86  |      78.02      |      93.82      | [77.61](https://drive.google.com/open?id=1m5WQEW2sjegQZm7UJn9H1T5Hl5vG-ye0) | 93.90 |
+| resnet50_v1d_0.48  |      74.66      |      92.34      | [74.10](https://drive.google.com/open?id=1F4-dLyHDjcw3eID9BTStrMtMfYkn_MjJ) | 92.10 |
+| resnet50_v1d_0.37  |      70.71      |      89.74      | [69.47](https://drive.google.com/open?id=1AJ2lN4dqCNWOZw6grc3wyZz75-VGeVbm) | 89.12 |
+| resnet50_v1d_0.11  |      63.22      |      84.79      | [61.12](https://drive.google.com/open?id=1kLb4p3UB0Ern9OxfCrAKEeMLX2YnD-0t) | 83.31 |
+| resnet101_v1d_0.76 |      79.46      |      94.69      | [79.55](https://drive.google.com/open?id=1YR88eeBw8QMTP0J17u8xBT1aaiAKPnFh) | 94.81 |
+| resnet101_v1d_0.73 |      78.89      |      94.48      | [78.68](https://drive.google.com/open?id=19aXUGH9nneXP62UbCHTtaIRNmnhwv6tN) | 94.41 |
 
 ### squeezenet
 
-|     Model     | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
-| :-----------: | :-------------: | :-------------: | :---: | :---: |
-| SqueezeNet1.0 |      56.11      |      79.09      | 55.67 | 78.47 |
-| SqueezeNet1.1 |      54.96      |      78.17      | 55.27 | 78.55 |
+|     Model     | Acc@1(gluon-cv) | Acc@5(gluon-cv) |                            Acc@1                             | Acc@5 |
+| :-----------: | :-------------: | :-------------: | :----------------------------------------------------------: | :---: |
+| SqueezeNet1.0 |      56.11      |      79.09      | [55.67](https://drive.google.com/open?id=1Ux-VwK6Sa33gKtzi0BhQdPduwPcTEJ8I) | 78.47 |
+| SqueezeNet1.1 |      54.96      |      78.17      | [55.27](https://drive.google.com/open?id=1UFa1Z2G0LWNwYZu_M-r_aGaUpBzWiJht) | 78.55 |
 
 ### densenet
 
-|    Model    | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
-| :---------: | :-------------: | :-------------: | :---: | :---: |
-| DenseNet121 |      74.97      |      92.25      | 74.65 | 92.15 |
-| DenseNet161 |      77.70      |      93.80      | 77.64 | 93.97 |
-| DenseNet169 |      76.17      |      93.17      | 76.26 | 93.18 |
-| DenseNet201 |      77.32      |      93.62      | 77.64 | 93.97 |
+|    Model    | Acc@1(gluon-cv) | Acc@5(gluon-cv) |                            Acc@1                             | Acc@5 |
+| :---------: | :-------------: | :-------------: | :----------------------------------------------------------: | :---: |
+| DenseNet121 |      74.97      |      92.25      | [74.65](https://drive.google.com/open?id=1B8I0s9HYUhg4IqpBJJucqOGeafKRWJJS) | 92.15 |
+| DenseNet161 |      77.70      |      93.80      | [77.64](https://drive.google.com/open?id=1PzWbaaYi_TWIFGWOrNAtfdE8s-V3uMew) | 93.97 |
+| DenseNet169 |      76.17      |      93.17      | [76.26](https://drive.google.com/open?id=1oFiS0WZTImshI8ALUGPA0lSjZyD6WP5S) | 93.18 |
+| DenseNet201 |      77.32      |      93.62      | [77.64](https://drive.google.com/open?id=1A_5Fg4yzo8UH9qyzmpCsocd6bwxWlNEW) | 93.97 |
 
 ### inception
 
-|    Model    | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
-| :---------: | :-------------: | :-------------: | :---: | :---: |
-| InceptionV3 |      78.77      |      94.39      | 78.62 | 94.42 |
+|    Model    | Acc@1(gluon-cv) | Acc@5(gluon-cv) |                            Acc@1                             | Acc@5 |
+| :---------: | :-------------: | :-------------: | :----------------------------------------------------------: | :---: |
+| InceptionV3 |      78.77      |      94.39      | [78.62](https://drive.google.com/open?id=1t3YhPYr571OsmdbAF4huSMDxu_UOIUZ6) | 94.42 |
 
 > `InceptionV3` is evaluated with input size of 299x299.
 
@@ -131,3 +131,9 @@ This repository contains pretrained models. (converted from gluon-cv)
 |   Model   | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
 | :-------: | :-------------: | :-------------: | :---: | :---: |
 | darknet53 |      78.56      |      94.43      | 78.54 | 94.54 |
+
+
+
+## TODO
+
+- [ ] Add more pretrained models
