@@ -3,6 +3,7 @@ from .model_zoo.resnet_v1b import *
 from .model_zoo.mobilenet import *
 from .model_zoo.resnext import *
 from .model_zoo.vgg import *
+from .model_zoo.resnetv1b_pruned import *
 
 _models = {
     # -----------------------------------------------------------------------------
@@ -65,6 +66,16 @@ _models = {
     'vgg13_bn': vgg13_bn,
     'vgg16_bn': vgg16_bn,
     'vgg19_bn': vgg19_bn,
+    # -----------------------------------------------------------------------------
+    # resnetv1b_pruned
+    # -----------------------------------------------------------------------------
+    'resnet18_v1b_0.89': resnet18_v1b_89,
+    'resnet50_v1d_0.86': resnet50_v1d_86,
+    'resnet50_v1d_0.48': resnet50_v1d_48,
+    'resnet50_v1d_0.37': resnet50_v1d_37,
+    'resnet50_v1d_0.11': resnet50_v1d_11,
+    'resnet101_v1d_0.76': resnet101_v1d_76,
+    'resnet101_v1d_0.73': resnet101_v1d_73,
 }
 
 

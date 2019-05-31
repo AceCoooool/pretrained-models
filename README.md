@@ -36,7 +36,7 @@ This repository contains pretrained models. (converted from gluon-cv)
 |  ResNet152_v1b  |      79.69      |      94.74      |                                                              |       |
 |  ResNet50_v1c   |      78.03      |      94.09      | [77.89](https://drive.google.com/open?id=1dBnRwuAdkQdKEuF5Vf6ufOY7esrYLF9B) | 94.02 |
 |  ResNet101_v1c  |      79.60      |      94.75      |                            79.48                             | 94.72 |
-|  ResNet152_v1c  |      80.01      |      94.96      |                                                              |       |
+|  ResNet152_v1c  |      80.01      |      94.96      |                            78.18                             | 93.99 |
 |  ResNet50_v1d   |      79.15      |      94.58      |                            79.04                             | 94.61 |
 |  ResNet101_v1d  |      80.51      |      95.12      |                            80.52                             | 95.23 |
 |  ResNet152_v1d  |      80.61      |      95.34      |                                                              |       |
@@ -67,9 +67,9 @@ This repository contains pretrained models. (converted from gluon-cv)
 |  VGG16   |      73.23      |      91.31      | 70.09 | 89.70 |
 |  VGG19   |      74.11      |      91.35      | 70.86 | 90.17 |
 | VGG11_bn |      68.59      |      88.72      | 68.94 | 88.88 |
-| VGG13_bn |      68.84      |      88.82      |       |       |
-| VGG16_bn |      73.10      |      91.76      |       |       |
-| VGG19_bn |      74.33      |      91.85      |       |       |
+| VGG13_bn |      68.84      |      88.82      | 69.51 | 89.46 |
+| VGG16_bn |      73.10      |      91.76      | 72.07 | 90.97 |
+| VGG19_bn |      74.33      |      91.85      | 72.85 | 91.26 |
 
 > Note: the vgg model here is converted from torchvision
 
@@ -79,7 +79,19 @@ This repository contains pretrained models. (converted from gluon-cv)
 | :-----------------: | :-------------: | :-------------: | :---: | :---: |
 |   ResNext50_32x4d   |      79.32      |      94.53      | 79.41 | 94.54 |
 |  ResNext101_32x4d   |      80.37      |      95.06      | 80.52 | 95.20 |
-|  ResNext101_64x4d   |      80.69      |      95.17      |       |       |
-| SE_ResNext50_32x4d  |      79.95      |      94.93      |       |       |
-| SE_ResNext101_32x4d |      80.91      |      95.39      |       |       |
-| SE_ResNext101_64x4d |      81.01      |      95.32      |       |       |
+|  ResNext101_64x4d   |      80.69      |      95.17      | 80.84 | 95.27 |
+| SE_ResNext50_32x4d  |      79.95      |      94.93      | 80.17 | 94.97 |
+| SE_ResNext101_32x4d |      80.91      |      95.39      | 81.27 | 95.42 |
+| SE_ResNext101_64x4d |      81.01      |      95.32      | 81.19 | 95.60 |
+
+### resnetv1b_pruned
+
+|       Model        | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
+| :----------------: | :-------------: | :-------------: | :---: | :---: |
+| resnet18_v1b_0.89  |      67.2       |      87.45      | 65.78 | 86.63 |
+| resnet50_v1d_0.86  |      78.02      |      93.82      | 77.61 | 93.90 |
+| resnet50_v1d_0.48  |      74.66      |      92.34      | 74.10 | 92.10 |
+| resnet50_v1d_0.37  |      70.71      |      89.74      | 69.47 | 89.12 |
+| resnet50_v1d_0.11  |      63.22      |      84.79      |       |       |
+| resnet101_v1d_0.76 |      79.46      |      94.69      |       |       |
+| resnet101_v1d_0.73 |      78.89      |      94.48      |       |       |
