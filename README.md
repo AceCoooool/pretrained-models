@@ -35,11 +35,11 @@ This repository contains pretrained models. (converted from gluon-cv)
 |  ResNet101_v1b  |      79.20      |      94.61      | [79.12](https://drive.google.com/open?id=17PVhxH2Frd2yYmg7IAodOt8GPfQzrddJ) | 94.47 |
 |  ResNet152_v1b  |      79.69      |      94.74      |                            78.07                             | 93.97 |
 |  ResNet50_v1c   |      78.03      |      94.09      | [77.89](https://drive.google.com/open?id=1dBnRwuAdkQdKEuF5Vf6ufOY7esrYLF9B) | 94.02 |
-|  ResNet101_v1c  |      79.60      |      94.75      |                            79.48                             | 94.72 |
+|  ResNet101_v1c  |      79.60      |      94.75      | [79.48](https://drive.google.com/open?id=1JBc1TmOf95rubOWu8hOz_OXBIOtUV6L4) | 94.72 |
 |  ResNet152_v1c  |      80.01      |      94.96      |                            78.18                             | 93.99 |
 |  ResNet50_v1d   |      79.15      |      94.58      | [79.04](https://drive.google.com/open?id=1oMrJ3U45ERi1EOCHTc5cjOba9hj-v4Os) | 94.61 |
 |  ResNet101_v1d  |      80.51      |      95.12      | [80.52](https://drive.google.com/open?id=1pWuT_iipgk6I_dM1NWAuxh93VQzz9HaA) | 95.23 |
-|  ResNet152_v1d  |      80.61      |      95.34      |                            80.75                             | 95.34 |
+|  ResNet152_v1d  |      80.61      |      95.34      | [80.75](https://drive.google.com/open?id=1mElrSlUvCR3bpnc6GHYUC2via3-THWSq) | 95.34 |
 
 > - `ResNet_v1b` modifies `ResNet_v1` by setting stride at the `3x3` layer for a bottleneck block.
 > - `ResNet_v1c` modifies `ResNet_v1b` by replacing the `7x7` conv layer with three `3x3` conv layers.
@@ -82,7 +82,7 @@ This repository contains pretrained models. (converted from gluon-cv)
 |  ResNext101_64x4d   |      80.69      |      95.17      | [80.84](https://drive.google.com/open?id=1ygaTFO75UYM8eaWJ-Y1MQ6OHfHoXgfwo) | 95.27 |
 | SE_ResNext50_32x4d  |      79.95      |      94.93      | [80.17](https://drive.google.com/open?id=1qFwRuFvcmRvmUqdjyBdUcNLVnxla3QDU) | 94.97 |
 | SE_ResNext101_32x4d |      80.91      |      95.39      | [81.27](https://drive.google.com/open?id=16TOK78CZrKFjCCiZXXSJ6zcrrMblnkg7) | 95.42 |
-| SE_ResNext101_64x4d |      81.01      |      95.32      |                            81.19                             | 95.60 |
+| SE_ResNext101_64x4d |      81.01      |      95.32      | [81.19](https://drive.google.com/open?id=1cc21-njLLCJrAt-osUfJXKch12PHnPlI) | 95.60 |
 
 ### resnetv1b_pruned
 
@@ -122,15 +122,15 @@ This repository contains pretrained models. (converted from gluon-cv)
 
 ### alexnet
 
-|  Model  | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
-| :-----: | :-------------: | :-------------: | :---: | :---: |
-| AlexNet |      54.92      |      78.03      | 54.28 | 77.68 |
+|  Model  | Acc@1(gluon-cv) | Acc@5(gluon-cv) |                            Acc@1                             | Acc@5 |
+| :-----: | :-------------: | :-------------: | :----------------------------------------------------------: | :---: |
+| AlexNet |      54.92      |      78.03      | [54.28](https://drive.google.com/open?id=1eAVM1Ic2ytAR40aOhhhDuNUIhtzIW5a9) | 77.68 |
 
 ### darknet
 
-|   Model   | Acc@1(gluon-cv) | Acc@5(gluon-cv) | Acc@1 | Acc@5 |
-| :-------: | :-------------: | :-------------: | :---: | :---: |
-| darknet53 |      78.56      |      94.43      | 78.54 | 94.54 |
+|   Model   | Acc@1(gluon-cv) | Acc@5(gluon-cv) |                            Acc@1                             | Acc@5 |
+| :-------: | :-------------: | :-------------: | :----------------------------------------------------------: | :---: |
+| darknet53 |      78.56      |      94.43      | [78.54](https://drive.google.com/open?id=1b5KHVz1FY8MHyHTlRZU5OdgL5t3jHYdT) | 94.54 |
 
 
 
